@@ -1,0 +1,131 @@
+*p {
+    margin: 0;
+  }
+
+  body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+
+  input {
+    padding: 10px 5px;
+    border-radius: 6px;
+    border: 1px solid black;
+  }
+
+  select {
+    padding: 10px 5px;
+    border-radius: 6px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+  button {
+    padding: 10px 5px;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card {
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: lightgray;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .flex_name {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+  }
+
+  .number {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .date {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .bank {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+
+  .system {
+    width: 90px;
+    height: auto;
+    position: absolute;
+    right: 20px;
+    top: -40px;
+  }
+
+  .card_info {
+    margin-top: auto;
+  }
+
+  .flex {
+    display: flex;
+    gap: 60px;
+  }
+
+  .flex_res {
+    display: flex;
+    margin: 0 150px;
+  }
+
+  .res_item {
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .res_img {
+    max-height: 150px;
+    max-width: 150px;
+  }
+
